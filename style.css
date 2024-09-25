@@ -20,8 +20,8 @@ justify-content: center;
     width: 450px;
     background-color: #34ebee;
     border-radius: 20px;
-    overflow: hidden;
- box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;;
+    overflow:hidden;
+ box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .nav{
     height: 65px;
@@ -42,7 +42,6 @@ justify-content: center;
 }
 .bottombox{
     width: 100%;
-  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,4 +62,10 @@ justify-content: center;
 }
 .bu:hover{
   background-color: rgb(182, 137, 225);
+}
+@media (width >= 624px) {
+    .box{
+        width: 400px;
+    }
+    
 }
