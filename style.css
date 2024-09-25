@@ -63,9 +63,3 @@ justify-content: center;
 .bu:hover{
   background-color: rgb(182, 137, 225);
 }
-@media (width < 624px) {
-    .box{
-        width: 400px;
-    }
-    
-}
